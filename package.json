@@ -1,0 +1,24 @@
+{
+  "name": "rollbase-monitor",
+  "version": "1.0.0",
+  "description": "This app check every certain time the users in a rollbase tenant",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "users",
+    "rollbase",
+    "monitor"
+  ],
+  "author": "Nestor Tobon",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "express": "^4.15.2",
+    "moment": "^2.18.1",
+    "ramda": "^0.23.0",
+    "simple-node-logger": "^0.93.17"
+  }
+}
