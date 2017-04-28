@@ -1,3 +1,9 @@
+#Enviroment variables
+.env
+
+#Emails are private
+email_list.json
+
 # Logs
 logs
 *.log
